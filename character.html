@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<head>
+	<title>ARCANE CHARACTERS</title>
+	<meta  charset="utf-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<a href="index.html"><img class="logo" src="images/arcane.png" alt=""></a>
+			<ul class="navigation">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a class="active" href="character.html">Character List</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="blog.html">Comments</a>
+				</li>
+				<li>
+					<a href="forum.html">Story Line</a>
+				</li>
+			</ul>
+		</div>
+		<div id="body">
+			<div id="content">
+				<div class="content">
+					<ul class="characters">
+						<li>
+						<a href="character.html"><img src="images/lol.png" alt=""></a>
+							
+							<h2><a href="character.html">GUESS MY FAV CHARACTER - not jinx</a></h2>
+							<div class="guess-container">
+								<input type="text" id="userGuess" class="input-box" placeholder=Enter your guess">
+								<button class="guess-btn" onclick="submitGuess()">Guess</button>
+							</div>
+							<p id="answerDisplay" class="answer-text"></p>
+							<label><span>For this webpage I changed the background with a gif along with creating a character list for the newest League of Legend series - Arcane. As it is linked with the game itself, I created a character list that linked their ability to their skins in the game. Above is also an user input for guessing my favorite character to play. I learned a lot through this project, and being able to customize is also very interesting to learn.</span> </label>
+						</li>
+						<li>
+							<a href="character.html"><img src="images/jinx.jpg" alt=""></a> <a href="character.html"><img class="powers" src="images/jinx-a.png" alt=""></a>
+							<h2><a href="character.html">[JINX] The Loose Cannon</a></h2>
+							<label><span>Character Role:</span> Marksman</label>
+							<label><span>Difficulty:</span> Medium</label>
+							<label><span>Abilities:</span> Get Excited, Whitcheroo, ZAP, Flame Chompers, Super Mega Death Rocket</label>
+							<label><span>Best Skin:</span> ARCANE JINX</label>
+						</li>
+						<li>
+							<a href="character.html"><img src="images/ekko.jpg" alt=""></a> <a href="character.html"><img class="powers" src="images/ekko-a.png" alt=""></a>
+							<h2><a href="character.html">[EKKO] The Boy Who Shattered Time</a></h2>
+							<label><span>Character Role:</span> Assassin/Mage</label>
+							<label><span>Difficulty:</span> High</label>
+							<label><span>Abilities:</span> Z-drive Resonance, Timewiner, Parallel Con, Phase Drive, Chronobreak </label>
+							<label><span>Best Skin:</span> FIRELIGHT EKKO </label>
+						</li>
+						<li>
+							<a href="character.html"><img src="images/vi.jpg" alt=""></a> <a href="character.html"><img class="powers" src="images/vi-a.png" alt=""></a>
+							<h2><a href="character.html">[VI] The Piltover Enforcer</a></h2>
+							<label><span>Character Role:</span> Fighter/Assassin</label>
+							<label><span>Difficulty:</span> Medium</label>
+							<label><span>Abilities</span> Blast Sheild, Vault Breaker, Denting Blows, Relentless Force, Cease and Desist</label>
+							<label><span>Best Skin:</span> ARCANE VI </label>
+						</li>
+						<li>
+							<a href="character.html"><img src="images/victor.jpg" alt=""></a> <a href="character.html"><img class="powers" src="images/viktor-a.png" alt=""></a>
+							<h2><a href="character.html">[VIKTOR] The Machine Herald</a></h2>
+							<label><span>Character Role:</span> Mage</label>
+							<label><span>Difficulty:</span> High</label>
+							<label><span>Abilities:</span> Glorious Evolution, Siphon Power, Gravity Field, Death Ray, Chaos Storm </label>
+							<label><span>Best Skin:</span> HIGH NOON VIKTOR </label>
+						</li>
+					</ul>
+					<ul class="paging">
+						<li class="first">
+							<a href="character.html">First</a>
+						</li>
+						<li>
+							<ul>
+								<li>
+									<a href="character.html" class="active">1</a>
+								</li>
+								<li>
+									<a href="character.html">2</a>
+								</li>
+							</ul>
+						</li>
+						<li class="last">
+							<a href="character.html">Last</a>
+						</li>
+					</ul>
+				</div>
+				<div id="sidebar">
+					<h2>Character List</h2>
+					<ul class="articles">
+						<li>
+							<a class="active" href="character.html">WEBPAGE</a>
+						</li>
+						<li>
+							<a href="character.html">JINX</a>
+						</li>
+						<li>
+							<a href="character.html">EKKO</a>
+						</li>
+						<li>
+							<a href="character.html">VI</a>
+						</li>
+						<li>
+							<a href="character.html">VIKTOR</a>
+						</li>
+					</ul>
+					<ul class="connect">
+						<li>
+							<a href="http://www.freewebsitetemplates.com/go/googleplus/" class="googleplus">&nbsp;</a> <a href="http://www.freewebsitetemplates.com/go/facebook/" class="facebook">&nbsp;</a> <a href="http://www.freewebsitetemplates.com/go/twitter/" class="twitter">&nbsp;</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="footer"> <span>24314093 <a href="index.html">Tean Bao Hung</a> </span> </div>
+	</div>
+	<script>
+	function submitGuess() {
+		// Get user input (optional if you want dynamic behavior)
+		const userInput = document.getElementById("userGuess").value;
+
+		// Display the answer
+		const answerElement = document.getElementById("answerDisplay");
+		answerElement.innerText = "SIKE IT'S JINX";
+	}
+	</script>
+
+</body>
+</html>
